@@ -6,7 +6,6 @@ const cors = require('cors');
 const PORT = process.env.PORT || 3000;
 const roomRoutes = require('./routes/room.route');
 const userRoutes = require('./routes/user.routes');
-const { user } = require('./prisma');
 
 app.use(bodyParser.json());
 app.use(cors());
